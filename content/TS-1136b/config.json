@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "id": "TS-1136b",
+  "title": "Основы TypeScript за 19 минут",
+  "tariff": ["basic"],
+  "preview": {
+    "name": "jsmarathon-mortal-kombat.gif",
+    "url": "./assets/heart.svg"
+  },
+  "description": "Это небольшая серия видео с прошедшего ReactPro марафона, освещающая основы TypeScript.",
+  "categories": [
+    "TypeScript"
+  ],
+  "status": "New",
+  "direction": "Development",
+  "type": "Marathon",
+  "icon": {
+    "url": null
+  },
+  "cover": {
+    "url": null
+  },
+  "authors": [
+    {
+      "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+      "name": "Зар Захаров",
+      "avatar": {
+        "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+      },
+      "email": "severenit@gmail.com"
+    }
+  ],
+  "skills": [],
+  "duration": 0,
+  "landing": {
+    "path": "./landing.md"
+  },
+  "content": [
+    {
+      "id": "lesson-01",
+      "order": 1,
+      "title": "Урок по основам TypeScript",
+      "theses": "",
+      "skills": ["TypeScript"],
+      "files": [],
+      "status": "Done",
+      "url": null,
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 0,
+      "daysToDeadline": 0,
+      "isFree": true,
+      "updatedAt": "2022-04-01T17:13:00.000Z",
+      "lesson": {
+        "path": "./lesson.md"
+      },
+      "homework": [
+        {
+          "id": "homework-01",
+          "title": "Домашняя работа",
+          "path": "./homework.md",
+          "files": [],
+          "daysToDeadline": 0,
+          "updatedAt": "2022-04-01T17:12:00.000Z"
+        }
+      ],
+      "source": []
+    }
+  ],
+  "botMessages": [],
+  "streams": []
+}
