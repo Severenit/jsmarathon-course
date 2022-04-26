@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "id": "jsmarathon-mortal-kombat",
   "title": "JSMarathon Mortal Kombat",
-  "tariff": ["react"],
+  "tariff": ["basic"],
   "preview": {
     "name": "jsmarathon-mortal-kombat.gif",
     "url": "./assets/heart.svg"
