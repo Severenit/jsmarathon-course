@@ -1,0 +1,9 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": ["*config.json"],
+            "url": "https://gist.githubusercontent.com/wegorich/b93057265c209dc3ff65dca385847c36/raw/afda47e0499f0d7c958c15c0602e98ccc4b8db29/course-document"
+          }
+    ],
+    "json.schemaDownload.enable": true
+}
