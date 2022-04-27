@@ -3,11 +3,11 @@
   "id": "jsmarathon-mortal-kombat",
   "title": "JSMarathon Mortal Kombat",
   "tariff": [
-    "react"
+    "basic"
   ],
   "preview": {
     "name": "jsmarathon-mortal-kombat.gif",
-    "url": "./assets/heart.svg"
+    "url": "https://firebasestorage.googleapis.com/v0/b/it-course-84ddd.appspot.com/o/course%2Fjsmarathon-mortal-kombat%2Fjsmarathon-mortal-kombat.gif?alt=media&token=11735fdf-688c-41ce-9506-83f236fd6f42"
   },
   "description": "От основ до файтинг игры на чистом JS.",
   "categories": [
