@@ -70,7 +70,7 @@
       },
       "homework": [
         {
-          "id": "903db899-3231-48f5-8025-a5febf70fd75",
+          "id": "homework-01",
           "title": "Homework #1",
           "path": "./homework/homework-01.md",
           "files": [
@@ -116,8 +116,8 @@
       "source": []
     },
     {
-      "id": "0c642c4d-3afd-4cfb-ad1c-ffdb4a6cec1a",
-      "order": 2,
+      "id": "lesson-03",
+      "order": 3,
       "title": "Учимся работать с DOM",
       "theses": "",
       "skills": [],
@@ -143,7 +143,7 @@
       },
       "homework": [
         {
-          "id": "502b00b3-3d36-46ae-8066-8735747fb248",
+          "id": "homework-03",
           "title": "Homework #2",
           "path": "./homework/homework-02.md",
           "files": [],
