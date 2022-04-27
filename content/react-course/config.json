@@ -77,9 +77,9 @@
       "source": []
     },
     {
-      "id": "0c642c4d-3afd-4cfb-ad1c-ffdb4a6cec1a",
+      "id": "lesson-01",
       "order": 2,
-      "title": "Учимся работать с DOM",
+      "title": "Урок №1: Введение в React",
       "theses": "",
       "skills": [],
       "files": [],
@@ -100,14 +100,15 @@
       "isFree": true,
       "updatedAt": "2022-04-01T17:15:00.000Z",
       "lesson": {
-        "path": "./lessons/lesson-02.md"
+        "path": "./lessons/lesson-01.md"
       },
       "homework": [
         {
           "id": "502b00b3-3d36-46ae-8066-8735747fb248",
           "title": "Homework #2",
-          "path": "./homework/homework-02.md",
+          "path": "./homework/homework-01.md",
           "files": [],
+          "checkHomeworkType": "link",
           "daysToDeadline": null,
           "updatedAt": "2022-04-01T17:12:00.000Z"
         }

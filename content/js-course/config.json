@@ -41,7 +41,7 @@
   },
   "content": [
     {
-      "id": "280d707f-9ca5-4e1f-9156-82d90aebab1a",
+      "id": "lesson-01",
       "order": 1,
       "title": "Знакомство с JS",
       "theses": "",
@@ -80,9 +80,39 @@
             }
           ],
           "daysToDeadline": 0,
+          "checkHomeworkType": "self-button",
           "updatedAt": "2022-04-01T17:12:00.000Z"
         }
       ],
+      "source": []
+    },
+    {
+      "id": "lesson-02",
+      "order": 2,
+      "title": "Учимся работать с DOM",
+      "theses": "",
+      "skills": [],
+      "files": [],
+      "status": "Done",
+      "attachmentURL": null,
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 0,
+      "daysToDeadline": 0,
+      "isFree": true,
+      "updatedAt": "2022-04-01T17:15:00.000Z",
+      "lesson": {
+        "path": "./lessons/lesson-02.md"
+      },
+      "homework": [],
       "source": []
     },
     {
@@ -118,6 +148,7 @@
           "path": "./homework/homework-02.md",
           "files": [],
           "daysToDeadline": null,
+          "checkHomeworkType": "self-button",
           "updatedAt": "2022-04-01T17:12:00.000Z"
         }
       ],
