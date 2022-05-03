@@ -31,8 +31,8 @@
       "email": "severenit@gmail.com"
     }
   ],
-  "skills": [],
-  "duration": 0,
+  "skills": ["TypeScript"],
+  "duration": "19min",
   "landing": {
     "path": "./landing.md"
   },
@@ -41,6 +41,7 @@
       "id": "lesson-01",
       "order": 1,
       "title": "Урок по основам TypeScript",
+      "description": "В этом уроке вы сможете познакомиться с самыми частыми случаями которые могут встретяться в TypeScript",
       "theses": "",
       "skills": ["TypeScript"],
       "files": [],
@@ -70,7 +71,7 @@
           "path": "./homework.md",
           "files": [],
           "daysToDeadline": 0,
-          "checkHomeworkType": "self-button",
+          "checkType": "self-button",
           "updatedAt": "2022-04-01T17:12:00.000Z"
         }
       ],
@@ -78,5 +79,15 @@
     }
   ],
   "botMessages": [],
-  "streams": []
+  "streams": [{
+    "cost": 0,
+    "id": "TS-a599e461f5ee",
+    "isFree": true,
+    "markdown": "",
+    "maxCount": 150,
+    "messenger": "None",
+    "startDay": "Mon May 02 2022",
+    "title": "Свободный режим",
+    "updatedAt": "Mon May 02 2022"
+  }]
 }
