@@ -32,7 +32,7 @@
     }
   ],
   "skills": ["TypeScript"],
-  "duration": 10,
+  "duration": 10000,
   "landing": {
     "path": "./landing.md"
   },
