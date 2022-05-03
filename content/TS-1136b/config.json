@@ -32,7 +32,7 @@
     }
   ],
   "skills": ["TypeScript"],
-  "duration": "19min",
+  "duration": 19,
   "landing": {
     "path": "./landing.md"
   },
@@ -83,7 +83,7 @@
     "cost": 0,
     "id": "TS-a599e461f5ee",
     "isFree": true,
-    "markdown": "",
+    "markdown": "# И что здесь?",
     "maxCount": 150,
     "messenger": "None",
     "startDay": "Mon May 02 2022",
