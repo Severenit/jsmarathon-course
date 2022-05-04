@@ -38,6 +38,9 @@
                   <Item>
                     <option name="path" value="content/TS-1136b/config.json" />
                   </Item>
+                  <Item>
+                    <option name="path" value="content/js-course/config.json" />
+                  </Item>
                 </list>
               </option>
             </SchemaInfo>

@@ -13,17 +13,9 @@
   "categories": [
     "JavaScript"
   ],
-  "status": "New",
-  "grade": "Novice",
+  "status": "Dev",
   "direction": "Development",
   "type": "Marathon",
-  "updatedAt": "2022-04-01T17:08:00.000Z",
-  "icon": {
-    "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2b87000d-270c-4bd7-b3bd-1d47285a2c9d/Untitled-10.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220402%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220402T122928Z&X-Amz-Expires=3600&X-Amz-Signature=2b91920583eb4a8c144cadae5630a7be81e90095207e03493fe9dde80c4fbc8f&X-Amz-SignedHeaders=host&x-id=GetObject"
-  },
-  "cover": {
-    "url": null
-  },
   "authors": [
     {
       "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
@@ -34,8 +26,7 @@
       "email": "severenit@gmail.com"
     }
   ],
-  "skills": [],
-  "duration": 0,
+  "skills": ["JavaScript"],
   "landing": {
     "path": "./landing.md"
   },
@@ -44,13 +35,12 @@
       "id": "lesson-01",
       "order": 1,
       "title": "Знакомство с JS",
-      "theses": "",
+      "description": "Время познакомиться с JavaScript",
       "skills": [
         "JavaScript"
       ],
       "files": [],
       "status": "Done",
-      "url": null,
       "authors": [
         {
           "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
@@ -61,8 +51,7 @@
           "email": "severenit@gmail.com"
         }
       ],
-      "daysToUnlock": 0,
-      "daysToDeadline": 0,
+      "daysToUnlock": 1,
       "isFree": true,
       "updatedAt": "2022-04-01T17:13:00.000Z",
       "lesson": {
@@ -79,9 +68,7 @@
               "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e2a9722d-25fe-4ab4-9695-028e8c8df9ca/MK.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220402%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220402T122934Z&X-Amz-Expires=3600&X-Amz-Signature=f3ad94e289a500bb9a7e1a23176f2042a2f5a71d9a6fec942132dadb5c1e8cc9&X-Amz-SignedHeaders=host&x-id=GetObject"
             }
           ],
-          "daysToDeadline": 0,
           "checkType": "self-button",
-          "updatedAt": "2022-04-01T17:12:00.000Z"
         }
       ],
       "source": []
@@ -156,5 +143,12 @@
     }
   ],
   "botMessages": [],
-  "streams": []
+  "streams": [{
+    "id": "stream",
+    "tariff": "Free",
+    "markdown": "**Вы можете пройти этот курс бесплатно**",
+    "messenger": "None",
+    "startDay": "2022-05-01T00:00:00.000Z",
+    "title": "Свободный режим"
+  }]
 }
