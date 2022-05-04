@@ -141,12 +141,14 @@
     }
   ],
   "botMessages": [],
-  "streams": [{
-    "id": "stream",
-    "tariff": "Free",
-    "markdown": "**Вы можете пройти этот курс бесплатно**",
-    "messenger": "None",
-    "startDay": "2022-05-01T00:00:00.000Z",
-    "title": "Свободный режим"
-  }]
+  "streams": [
+    {
+      "id": "stream",
+      "tariff": "Free",
+      "markdown": "**Вы можете пройти этот курс бесплатно**",
+      "messenger": "None",
+      "startDay": "2022-05-01T00:00:00.000Z",
+      "title": "Свободный режим"
+    }
+  ]
 }
