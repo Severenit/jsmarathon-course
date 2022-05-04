@@ -1,15 +1,14 @@
-# Урока 2 - Учимся работать с DOM
+# Урока 6 - Работа с датой, ещё про условные конструкции, работа с текстом и DOM
 
 В этом уроке мы разберем:
-- Математические операторы
-- Function
-- Object
-- Array
-- DOM
-- querySelector и createElement
+- Switch
+- new Date
+- replace
+- шаблонные строки
+- insertAdjacentHTML
 
 Так что, перед тем как выполнить домашнее задание, посмотрите видео:
 
-[https://youtu.be/bjnr13tSw8s](https://youtu.be/bjnr13tSw8s)
+[https://youtu.be/Yi8871D4ScA](https://youtu.be/Yi8871D4ScA)
 
 После каждого видео есть домашнее задание
