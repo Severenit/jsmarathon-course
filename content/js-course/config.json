@@ -99,7 +99,15 @@
       "lesson": {
         "path": "./lessons/lesson-02.md"
       },
-      "homework": [],
+      "homework": [
+        {
+          "id": "homework-02",
+          "title": "Homework #2",
+          "path": "./homework/homework-02.md",
+          "files": [],
+          "checkType": "self-button"
+        }
+      ],
       "source": []
     },
     {
