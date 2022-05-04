@@ -1,15 +1,11 @@
-# Урока 2 - Учимся работать с DOM
+# Урока 5 - Циклы и работа с формы из JS
 
 В этом уроке мы разберем:
-- Математические операторы
-- Function
-- Object
-- Array
-- DOM
-- querySelector и createElement
+- Цикл for
+- Работа с формой
 
 Так что, перед тем как выполнить домашнее задание, посмотрите видео:
 
-[https://youtu.be/bjnr13tSw8s](https://youtu.be/bjnr13tSw8s)
+[https://youtu.be/vH77O_1LDtc](https://youtu.be/vH77O_1LDtc)
 
 После каждого видео есть домашнее задание
