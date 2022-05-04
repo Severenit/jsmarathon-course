@@ -402,7 +402,7 @@
     },
     {
       "id": "prozharka-07",
-      "order": 9,
+      "order": 11,
       "title": "Прожарка #7",
       "description": "Время познакомиться с JavaScript",
       "skills": [
@@ -427,6 +427,45 @@
         "path": "./lessons/prozharka-07.md"
       },
       "homework": [],
+      "source": []
+    },
+    {
+      "id": "lesson-07",
+      "order": 12,
+      "title": "Все о всех функциях и модули",
+      "description": "Время познакомиться с JavaScript",
+      "skills": [
+        "JavaScript"
+      ],
+      "files": [],
+      "status": "Done",
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 1,
+      "isFree": true,
+      "updatedAt": "2022-04-01T17:15:00.000Z",
+      "lesson": {
+        "path": "./lessons/lesson-08.md"
+      },
+      "homework": [
+        {
+          "id": "homework-08",
+          "title": "Homework #8",
+          "path": "./homework/homework-08.md",
+          "files": [],
+          "daysToDeadline": null,
+          "checkType": "self-button",
+          "updatedAt": "2022-04-01T17:12:00.000Z"
+        }
+      ],
       "source": []
     }
   ],

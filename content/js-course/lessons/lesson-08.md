@@ -1,15 +1,11 @@
-# Урока 2 - Учимся работать с DOM
+# Урока 8 - Class что это такое и как с ним работать
 
 В этом уроке мы разберем:
-- Математические операторы
-- Function
-- Object
-- Array
-- DOM
-- querySelector и createElement
+- Классы
+- Создаем свой класс Player()
 
 Так что, перед тем как выполнить домашнее задание, посмотрите видео:
 
-[https://youtu.be/bjnr13tSw8s](https://youtu.be/bjnr13tSw8s)
+[https://youtu.be/nUBWt8N4_6o](https://youtu.be/nUBWt8N4_6o)
 
 После каждого видео есть домашнее задание
