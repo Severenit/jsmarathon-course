@@ -105,7 +105,7 @@
     {
       "id": "lesson-03",
       "order": 3,
-      "title": "Учимся работать с DOM",
+      "title": "Начинаем писать игру",
       "description": "Время познакомиться с JavaScript",
       "skills": [
         "JavaScript"
@@ -126,14 +126,19 @@
       "isFree": true,
       "updatedAt": "2022-04-01T17:15:00.000Z",
       "lesson": {
-        "path": "./lessons/lesson-02.md"
+        "path": "./lessons/lesson-03.md"
       },
       "homework": [
         {
           "id": "homework-03",
-          "title": "Homework #2",
-          "path": "./homework/homework-02.md",
-          "files": [],
+          "title": "Homework #3",
+          "path": "./homework/homework-03.md",
+          "files": [
+            {
+              "name": "style.css.zip",
+              "url": "https://firebasestorage.googleapis.com/v0/b/it-course-84ddd.appspot.com/o/course%2Fjsmarathon-mortal-kombat%2Fstyle.css.zip?alt=media&token=fa0b38af-c88e-425c-82c1-a50e9296dffb"
+            }
+          ],
           "daysToDeadline": null,
           "checkType": "self-button",
           "updatedAt": "2022-04-01T17:12:00.000Z"
