@@ -20,6 +20,26 @@
             </SchemaInfo>
           </value>
         </entry>
+        <entry key="course-document 2">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="course-document 2" />
+              <option name="relativePathToSchema" value="scheme.json" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value=".vscode/settings.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="content/TS-1136b/config.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
       </map>
     </state>
   </component>

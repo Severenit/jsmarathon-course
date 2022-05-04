@@ -11,16 +11,9 @@
   "categories": [
     "TypeScript"
   ],
-  "status": "New",
+  "status": "Dev",
   "direction": "Development",
   "type": "Marathon",
-  "updatedAt": "2022-04-01T17:08:00.000Z",
-  "icon": {
-    "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2b87000d-270c-4bd7-b3bd-1d47285a2c9d/Untitled-10.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220402%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220402T122928Z&X-Amz-Expires=3600&X-Amz-Signature=2b91920583eb4a8c144cadae5630a7be81e90095207e03493fe9dde80c4fbc8f&X-Amz-SignedHeaders=host&x-id=GetObject"
-  },
-  "cover": {
-    "url": null
-  },
   "authors": [
     {
       "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
@@ -32,7 +25,6 @@
     }
   ],
   "skills": ["TypeScript"],
-  "duration": 10000,
   "landing": {
     "path": "./landing.md"
   },
@@ -42,11 +34,9 @@
       "order": 1,
       "title": "Урок по основам TypeScript",
       "description": "В этом уроке вы сможете познакомиться с самыми частыми случаями которые могут встретяться в TypeScript",
-      "theses": "",
       "skills": ["TypeScript"],
       "files": [],
       "status": "Done",
-      "url": null,
       "authors": [
         {
           "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
@@ -57,10 +47,8 @@
           "email": "severenit@gmail.com"
         }
       ],
-      "daysToUnlock": 0,
-      "daysToDeadline": 0,
+      "daysToUnlock": 1,
       "isFree": true,
-      "updatedAt": "2022-04-01T17:13:00.000Z",
       "lesson": {
         "path": "./lesson.md"
       },
@@ -70,9 +58,7 @@
           "title": "Домашняя работа",
           "path": "./homework.md",
           "files": [],
-          "daysToDeadline": 0,
-          "checkType": "self-button",
-          "updatedAt": "2022-04-01T17:12:00.000Z"
+          "checkType": "self-button"
         }
       ],
       "source": []
@@ -80,14 +66,11 @@
   ],
   "botMessages": [],
   "streams": [{
-    "cost": 0,
-    "id": "TS-a599e461f5ee",
-    "isFree": true,
-    "markdown": "# И что здесь?",
-    "maxCount": 150,
+    "tariff": "Free",
+    "id": "stream",
+    "markdown": "**Вы можете пройти этот курс бесплатно**",
     "messenger": "None",
     "startDay": "Mon May 02 2022",
-    "title": "Свободный режим",
-    "updatedAt": "Mon May 02 2022"
+    "title": "Свободный режим"
   }]
 }
