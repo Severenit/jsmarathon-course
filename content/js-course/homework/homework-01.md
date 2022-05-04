@@ -1,6 +1,6 @@
-# **HomeWork #1**
+# HomeWork #1
 
-## **Project Files**
+## Project Files
 
 Для будущего проекта тебе потребуется скачать вот это файл.
 
@@ -12,11 +12,11 @@
 
 Как это сделать, смотри в соответствующем видео и читай подсказки ниже.
 
-### **GitHub**
+### GitHub
 
 Если у тебя еще нет аккаунта на _GitHub_, регистрируйся по ссылке [https://github.com](https://github.com/)
 
-### **GitHub Desktop**
+### GitHub Desktop
 
 Здесь ты сможешь скачать **Github Desktop**
 

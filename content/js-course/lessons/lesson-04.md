@@ -1,15 +1,12 @@
-# Урока 2 - Учимся работать с DOM
+# Урока 4 - Все о context-е (this)
 
 В этом уроке мы разберем:
-- Математические операторы
-- Function
-- Object
-- Array
-- DOM
-- querySelector и createElement
+- window && IIFE
+- this, call, apply && bind
+- Цепочки областей видимости
 
 Так что, перед тем как выполнить домашнее задание, посмотрите видео:
 
-[https://youtu.be/bjnr13tSw8s](https://youtu.be/bjnr13tSw8s)
+[https://youtu.be/jN9PxaHSg1w](https://youtu.be/jN9PxaHSg1w)
 
 После каждого видео есть домашнее задание
