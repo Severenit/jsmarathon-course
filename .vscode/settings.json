@@ -2,7 +2,7 @@
     "json.schemas": [
         {
             "fileMatch": ["*config.json"],
-            "url": "https://gist.githubusercontent.com/wegorich/b93057265c209dc3ff65dca385847c36/raw/b7673c2d97de79680687a26b68da765aeab32e28/course-document"
+            "url": "./.vscode/schema.json"
           }
     ],
     "json.schemaDownload.enable": true
