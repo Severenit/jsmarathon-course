@@ -1,4 +1,4 @@
-[https://youtu.be/u0V-IuhvpQk](https://youtu.be/u0V-IuhvpQk)
+[https://youtu.be/0rqw4239BZE](https://youtu.be/0rqw4239BZE)
 
 > “Мы учимся только общаясь с другими людьми или сами с собой.”
 
