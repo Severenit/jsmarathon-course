@@ -106,6 +106,7 @@
       "id": "lesson-03",
       "order": 3,
       "title": "Учимся работать с DOM",
+      "description": "Время познакомиться с JavaScript",
       "skills": [
         "JavaScript"
       ],
