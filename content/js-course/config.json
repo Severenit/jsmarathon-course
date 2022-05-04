@@ -194,8 +194,37 @@
       "source": []
     },
     {
-      "id": "lesson-05",
+      "id": "prozharka-04",
       "order": 5,
+      "title": "Прожарка #4",
+      "description": "Время познакомиться с JavaScript",
+      "skills": [
+        "JavaScript"
+      ],
+      "files": [],
+      "status": "Done",
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 1,
+      "isFree": true,
+      "updatedAt": "2022-04-01T17:15:00.000Z",
+      "lesson": {
+        "path": "./lessons/prozharka-04.md"
+      },
+      "homework": [],
+      "source": []
+    },
+    {
+      "id": "lesson-05",
+      "order": 6,
       "title": "Циклы и работа с формы из JS",
       "description": "Время познакомиться с JavaScript",
       "skills": [
@@ -234,7 +263,7 @@
     },
     {
       "id": "lesson-06",
-      "order": 6,
+      "order": 8,
       "title": "Работа с датой, ещё про условные конструкции, работа с текстом и DOM",
       "description": "Время познакомиться с JavaScript",
       "skills": [
