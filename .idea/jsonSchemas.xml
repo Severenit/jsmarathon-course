@@ -7,13 +7,16 @@
           <value>
             <SchemaInfo>
               <option name="name" value="course-document" />
-              <option name="relativePathToSchema" value="https://gist.githubusercontent.com/wegorich/b93057265c209dc3ff65dca385847c36/raw/afda47e0499f0d7c958c15c0602e98ccc4b8db29/course-document" />
+              <option name="relativePathToSchema" value=".vscode/schema.json" />
               <option name="schemaVersion" value="JSON Schema version 7" />
               <option name="applicationDefined" value="true" />
               <option name="patterns">
                 <list>
                   <Item>
-                    <option name="path" value="*config.json" />
+                    <option name="path" value="content/*/config.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="content/react-course/config.json" />
                   </Item>
                 </list>
               </option>
