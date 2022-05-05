@@ -430,9 +430,9 @@
       "source": []
     },
     {
-      "id": "lesson-07",
+      "id": "lesson-08",
       "order": 12,
-      "title": "Все о всех функциях и модули",
+      "title": "Class что это такое и как с ним работать",
       "description": "Время познакомиться с JavaScript",
       "skills": [
         "JavaScript"
@@ -461,6 +461,79 @@
           "title": "Homework #8",
           "path": "./homework/homework-08.md",
           "files": [],
+          "daysToDeadline": null,
+          "checkType": "self-button",
+          "updatedAt": "2022-04-01T17:12:00.000Z"
+        }
+      ],
+      "source": []
+    },
+    {
+      "id": "prozharka-08",
+      "order": 13,
+      "title": "Прожарка #8",
+      "description": "Разбор 8 домашнего задания в стиле Прожарки",
+      "skills": [
+        "JavaScript"
+      ],
+      "files": [],
+      "status": "Done",
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 1,
+      "isFree": true,
+      "updatedAt": "2022-04-01T17:15:00.000Z",
+      "lesson": {
+        "path": "./lessons/prozharka-08.md"
+      },
+      "homework": [],
+      "source": []
+    },
+    {
+      "id": "lesson-09",
+      "order": 14,
+      "title": "EventLoop и Promise",
+      "description": "Время познакомиться с JavaScript",
+      "skills": [
+        "JavaScript"
+      ],
+      "files": [],
+      "status": "Done",
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 1,
+      "isFree": true,
+      "updatedAt": "2022-04-01T17:15:00.000Z",
+      "lesson": {
+        "path": "./lessons/lesson-09.md"
+      },
+      "homework": [
+        {
+          "id": "homework-09",
+          "title": "Homework #9",
+          "path": "./homework/homework-09.md",
+          "files": [
+            {
+              "name": "SelectPlayer.zip",
+              "url": "https://firebasestorage.googleapis.com/v0/b/it-course-84ddd.appspot.com/o/course%2Fjsmarathon-mortal-kombat%2F9%2FSelectPlayer.zip?alt=media&token=616315fd-e4ce-4273-b75d-9bc810e3a273"
+            }
+          ],
           "daysToDeadline": null,
           "checkType": "self-button",
           "updatedAt": "2022-04-01T17:12:00.000Z"
