@@ -1,0 +1,533 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "CourseDocumentActionBtn": {
+      "enum": [
+        "Buy",
+        "OpenCoursePage",
+        "OpenMarketingPage"
+      ],
+      "type": "string"
+    },
+    "CourseDocumentCheckHomework": {
+      "enum": [
+        "link",
+        "self-button",
+        "text"
+      ],
+      "type": "string"
+    },
+    "CourseDocumentDirection": {
+      "enum": [
+        "Development",
+        "Entrepreneurship",
+        "Integrator",
+        "Management"
+      ],
+      "type": "string"
+    },
+    "CourseDocumentGrade": {
+      "enum": [
+        "Advanced Beginner",
+        "Competent",
+        "Expert",
+        "Novice",
+        "Proficient"
+      ],
+      "type": "string"
+    },
+    "CourseDocumentMessenger": {
+      "enum": [
+        "Discord",
+        "Facebook Messenger",
+        "Instagram",
+        "None",
+        "QQ",
+        "Skype",
+        "Slack",
+        "Snapchat",
+        "Telegram",
+        "Viber",
+        "WhatsUp",
+        "Zoom"
+      ],
+      "type": "string"
+    },
+    "CourseDocumentStatus": {
+      "enum": [
+        "Dev",
+        "Done",
+        "New",
+        "Validate"
+      ],
+      "type": "string"
+    },
+    "CourseDocumentTariff": {
+      "enum": [
+        "Custom",
+        "Free",
+        "Subscription"
+      ],
+      "type": "string"
+    },
+    "CourseDocumentType": {
+      "enum": [
+        "Course",
+        "Game",
+        "Marathon",
+        "Training",
+        "Workshop"
+      ],
+      "type": "string"
+    }
+  },
+  "properties": {
+    "authors": {
+      "items": {
+        "properties": {
+          "avatar": {
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {}
+            },
+            "type": "object"
+          },
+          "email": {},
+          "id": {},
+          "name": {}
+        },
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "botMessages": {
+      "items": {
+        "properties": {
+          "actionBtn": {
+            "$ref": "#/definitions/CourseDocumentActionBtn"
+          },
+          "id": {
+            "type": "string"
+          },
+          "markdown": {
+            "type": "string"
+          },
+          "marketingUrl": {
+            "type": "string"
+          },
+          "messageDelayMinutes": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          },
+          "videos": {
+            "items": {
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "categories": {
+      "description": "Направление, фрэймворки, техники - теги описывающие базу в которой будет идти работа",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "content": {
+      "description": "Контент/Уроки - что будет в курсе",
+      "items": {
+        "properties": {
+          "authors": {
+            "items": {
+              "properties": {
+                "avatar": {
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "url": {}
+                  },
+                  "type": "object"
+                },
+                "email": {},
+                "id": {},
+                "name": {}
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "category": {
+            "description": "Группа, объединяющая уроки по направлениям",
+            "type": "string"
+          },
+          "daysToUnlock": {
+            "description": "Через сколько дней от начала старта курса, урок станет доступен\nNOTE: дата считается от потока в котором находится ученик",
+            "type": "number"
+          },
+          "description": {
+            "type": "string"
+          },
+          "files": {
+            "items": {
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "homework": {
+            "items": {
+              "properties": {
+                "checkSuccessMark": {
+                  "description": "Оценка за домашку от 0 - 10, что бы считать что сделал хорошо\nNOTE: по умолчанию 0",
+                  "type": "number"
+                },
+                "checkType": {
+                  "$ref": "#/definitions/CourseDocumentCheckHomework",
+                  "description": "Способы проверки домашки, важно для бесплатных курсов"
+                },
+                "daysToDeadline": {
+                  "description": "Дедлайн дней от старта урока",
+                  "type": "number"
+                },
+                "files": {
+                  "items": {
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "markdown": {
+                  "type": "string"
+                },
+                "path": {
+                  "description": "Это поле указывает на локальный *.md файл\nNOTE: не используется нигде кроме как в GitHub",
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "updatedAt": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "id": {
+            "type": "string"
+          },
+          "isFree": {
+            "description": "Хорошее правило делать несколько вводных уроков бесплатными\nЧто бы люди понимали как будет идти процесс обучения",
+            "type": "boolean"
+          },
+          "lesson": {
+            "properties": {
+              "markdown": {
+                "type": "string"
+              },
+              "path": {
+                "description": "Это поле указывает на локальный *.md файл\nNOTE: не используется нигде кроме как в GitHub",
+                "type": "string"
+              }
+            },
+            "type": "object"
+          },
+          "order": {
+            "type": "number"
+          },
+          "skills": {
+            "description": "Какие навыки отрабатываем на уроке",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "source": {
+            "items": {
+              "properties": {
+                "files": {
+                  "items": {
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": "string"
+                      }
+                    },
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "markdown": {
+                  "type": "string"
+                },
+                "path": {
+                  "description": "Это поле указывает на локальный *.md файл\nNOTE: не используется нигде кроме как в GitHub",
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "updatedAt": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "status": {
+            "$ref": "#/definitions/CourseDocumentStatus",
+            "description": "Только готовые уроки доступны студентам\nNOTE: мы показываем какие уроки планируются, так что уроки в общем списке будут видны все"
+          },
+          "theses": {
+            "description": "Внутреннее поле которое может использовать преподаватель,\nдля краткого описания содержимого",
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          },
+          "url": {
+            "description": "Ссылка на внешние материалы\nК примеру если вы хотите проводить урок по внешней презентации",
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "contentCount": {
+      "description": "Сколько уроков в курсе\nNOTE: Вычисляемое поле",
+      "type": "number"
+    },
+    "cover": {
+      "description": "Используется на детальной странице курса",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "description": {
+      "type": "string"
+    },
+    "direction": {
+      "$ref": "#/definitions/CourseDocumentDirection",
+      "description": "Доменная зона в рамках компании"
+    },
+    "duration": {
+      "description": "Продолжительность в часах\nNOTE: Вычисляемое поле, на основании уроков в курсе",
+      "type": "number"
+    },
+    "grade": {
+      "$ref": "#/definitions/CourseDocumentGrade",
+      "description": "Сложность, уровень отрабатываемых навыков"
+    },
+    "icon": {
+      "allOf": [
+        {
+          "properties": {
+            "emoji": {
+              "type": "string"
+            },
+            "type": {
+              "enum": [
+                "emoji",
+                "external",
+                "file"
+              ],
+              "type": "string"
+            }
+          },
+          "type": "object"
+        },
+        {
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "type": "object"
+        }
+      ],
+      "description": "Картинка или эмоджи - дополнительный квадратный логотипчик, например React\nИспользуется как логотип в групповых чатиках и ботов"
+    },
+    "id": {
+      "type": "string"
+    },
+    "landing": {
+      "properties": {
+        "markdown": {
+          "type": "string"
+        },
+        "path": {
+          "description": "Это поле указывает на локальный *.md файл\nNOTE: не используется нигде кроме как в GitHub",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "preview": {
+      "description": "Используется в карточках курса",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "skills": {
+      "description": "Навыки которые получит студент после обучения",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "status": {
+      "$ref": "#/definitions/CourseDocumentStatus",
+      "description": "В зависимости от этого поля, курс показан в песочнице или в магазине курсов\nNOTE: вы не сможете сами выставить Done, это делают модераторы"
+    },
+    "streams": {
+      "description": "Образовательные потоки, группы и даты старта обучения\nВАЖНО: В этом поле решаются все вопросы по монетизации вашего курса и скидки\nNOTE: если вы хотите еще раз запустить курс, добавьте новый стрим",
+      "items": {
+        "properties": {
+          "cost": {
+            "type": "number"
+          },
+          "group": {
+            "description": "Один поток, но разные группы. Например: утренняя/вечерняя\nВ этом поле пишим одинковые значения, что бы объединить потоки в группу",
+            "type": "string"
+          },
+          "groupFolderUrl": {
+            "description": "Папка для хранения материалов группы, например записи встреч",
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "isFree": {
+            "description": "Курс вообще бесплатный? Точно точно?\nDEPRICATED",
+            "type": "boolean"
+          },
+          "markdown": {
+            "description": "Описание как будут идти занятия, во сколько, как долго и тп",
+            "type": "string"
+          },
+          "maxCount": {
+            "description": "Ограничение по кол-ву участников\nNOTE: все что > 1000 мы считаем без ограничений :D",
+            "type": "number"
+          },
+          "messenger": {
+            "$ref": "#/definitions/CourseDocumentMessenger",
+            "description": "Приложение в котором будет вестись вся работа по обучению с тренером\nNOTE: предпочтительно Discord для большого числа участников"
+          },
+          "messengerUrl": {
+            "type": "string"
+          },
+          "startDay": {
+            "description": "Дата начала обучения",
+            "type": "string"
+          },
+          "tariff": {
+            "$ref": "#/definitions/CourseDocumentTariff",
+            "description": "Кому доступен курс\nNOTE: только для custom полей учитывается цена курса\nNOTE: по умолчанию будет custom"
+          },
+          "title": {
+            "description": "Заголовок не очень важен\nОн в основном для обратной совместимости с Notion",
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "tariff": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "$ref": "#/definitions/CourseDocumentType",
+      "description": "Тип формата, контента"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "version": {
+      "description": "Версия схемы документа",
+      "enum": [
+        "1.0.0"
+      ],
+      "type": "string"
+    }
+  },
+  "type": "object"
+}

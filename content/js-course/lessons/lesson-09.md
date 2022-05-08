@@ -1,15 +1,13 @@
-# Урока 2 - Учимся работать с DOM
+# Урока 9 - EventLoop и Promise
 
 В этом уроке мы разберем:
-- Математические операторы
-- Function
-- Object
-- Array
-- DOM
-- querySelector и createElement
+- Асинхронность в JS
+- Promise
+- fetch()
+- async/await
 
 Так что, перед тем как выполнить домашнее задание, посмотрите видео:
 
-[$emded](https://youtu.be/bjnr13tSw8s)
+[$emded](https://youtu.be/M2mHhxe06sc)
 
 После каждого видео есть домашнее задание
