@@ -1,3 +1,3 @@
 # Прожарка 8 урока
 
-[$emded](https://youtu.be/xf_A_LA5KNw)
+[emded](https://youtu.be/xf_A_LA5KNw)

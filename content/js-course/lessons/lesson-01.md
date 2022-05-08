@@ -16,4 +16,4 @@
 
 Так что, перед тем как выполнить домашнее задание, посмотрите видео:
 
-[$emded](https://www.youtube.com/watch?v=lz06MET6sl0)
+[emded](https://www.youtube.com/watch?v=lz06MET6sl0)
