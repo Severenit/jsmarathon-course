@@ -158,7 +158,7 @@
       "id": "lesson-04",
       "order": 4,
       "title": "Все о context-е (this)",
-      "description": "Время познакомиться с JavaScript",
+      "description": "Что такое контекст? А ведь это очень важно понимать.",
       "skills": [
         "JavaScript"
       ],
