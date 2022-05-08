@@ -10,6 +10,6 @@
 
 Так что, перед тем как выполнить домашнее задание, посмотрите видео:
 
-[https://youtu.be/mONVgmO34Fg](https://youtu.be/mONVgmO34Fg)
+[$embed](https://youtu.be/mONVgmO34Fg)
 
 После каждого видео есть домашнее задание
