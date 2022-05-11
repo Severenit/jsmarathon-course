@@ -67,6 +67,7 @@
   "botMessages": [],
   "streams": [{
     "tariff": "Custom",
+    "cost": 15990,
     "id": "stream0422",
     "markdown": "**Вы можете пройти этот курс бесплатно**",
     "messenger": "None",
