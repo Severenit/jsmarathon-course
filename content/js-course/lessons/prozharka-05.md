@@ -1,3 +1,3 @@
 # Прожарка 5 урока
 
-[$emded](https://youtu.be/RmsloQbY05k)
+[$embed](https://youtu.be/RmsloQbY05k)
