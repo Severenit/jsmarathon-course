@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "id": "react",
+  "title": "Полный курс React-разработчика",
+  "tariff": ["basic"],
+  "preview": {
+    "name": "react-course.gif",
+    "url": "https://it-course.online/static/react-course.gif"
+  },
+  "description": "От основ до многопользовательской игры на Reаct, которую вы сами создадите и протестируете.",
+  "categories": [
+    "React"
+  ],
+  "status": "Dev",
+  "direction": "Development",
+  "type": "Marathon",
+  "authors": [
+    {
+      "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+      "name": "Зар Захаров",
+      "avatar": {
+        "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+      },
+      "email": "severenit@gmail.com"
+    }
+  ],
+  "skills": ["React", "JavaScript"],
+  "landing": {
+    "path": "./landing.md"
+  },
+  "content": [
+    {
+      "id": "discord",
+      "order": 1,
+      "title": "Урок №0: Знакомство с курсом и Discord",
+      "description": "Знакомство с курсом и Discord",
+      "skills": ["React"],
+      "files": [],
+      "status": "Done",
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 1,
+      "isFree": false,
+      "lesson": {
+        "path": "./lessons/discord.md"
+      },
+      "homework": [
+        {
+          "id": "discord",
+          "title": "Домашняя работа",
+          "path": "./homeworks/discord.md",
+          "files": [],
+          "checkType": "text"
+        }
+      ],
+      "source": []
+    }
+  ],
+  "botMessages": [],
+  "streams": [{
+    "tariff": "Custom",
+    "id": "stream0422",
+    "markdown": "**Вы можете пройти этот курс бесплатно**",
+    "messenger": "None",
+    "startDay": "2022-05-01T00:00:00.000Z",
+    "title": "Свободный режим"
+  }]
+}
