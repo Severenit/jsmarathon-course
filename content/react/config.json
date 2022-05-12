@@ -130,6 +130,181 @@
         }
       ],
       "source": []
+    },
+    {
+      "id": "lesson-03",
+      "order": 4,
+      "title": "Урок №3: Знакомимся с useState и onClick",
+      "description": "Знакомство с курсом и Discord",
+      "skills": ["React"],
+      "files": [],
+      "status": "Done",
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 1,
+      "isFree": false,
+      "lesson": {
+        "path": "./lessons/lesson-03.md"
+      },
+      "homework": [
+        {
+          "id": "homework-03",
+          "title": "Домашняя работа",
+          "path": "./homeworks/homework-03.md",
+          "files": [],
+          "checkType": "link"
+        }
+      ],
+      "source": []
+    },
+    {
+      "id": "lesson-04",
+      "order": 5,
+      "title": "Урок №4: Иммутабильность в React и жизненные фазы/циклы компонента",
+      "description": "Знакомство с курсом и Discord",
+      "skills": ["React"],
+      "files": [],
+      "status": "Done",
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 1,
+      "isFree": false,
+      "lesson": {
+        "path": "./lessons/lesson-04.md"
+      },
+      "homework": [
+        {
+          "id": "homework-04",
+          "title": "Домашняя работа",
+          "path": "./homeworks/homework-04.md",
+          "files": [],
+          "checkType": "link"
+        }
+      ],
+      "source": []
+    },
+    {
+      "id": "lesson-05",
+      "order": 6,
+      "title": "Урок №5: Знакомимся с React Router v6",
+      "description": "Знакомство с курсом и Discord",
+      "skills": ["React"],
+      "files": [],
+      "status": "Done",
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 1,
+      "isFree": false,
+      "lesson": {
+        "path": "./lessons/lesson-05.md"
+      },
+      "homework": [
+        {
+          "id": "homework-05",
+          "title": "Домашняя работа",
+          "path": "./homeworks/homework-05.md",
+          "files": [],
+          "checkType": "link"
+        }
+      ],
+      "source": []
+    },
+    {
+      "id": "lesson-06",
+      "order": 7,
+      "title": "Урок №6: Углубляемся в React Router v6",
+      "description": "Знакомство с курсом и Discord",
+      "skills": ["React"],
+      "files": [],
+      "status": "Done",
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 1,
+      "isFree": false,
+      "lesson": {
+        "path": "./lessons/lesson-06.md"
+      },
+      "homework": [
+        {
+          "id": "homework-06",
+          "title": "Домашняя работа",
+          "path": "./homeworks/homework-06.md",
+          "files": [],
+          "checkType": "link"
+        }
+      ],
+      "source": []
+    },
+    {
+      "id": "lesson-07",
+      "order": 8,
+      "title": "Урок №7: Что такое HOOKS?",
+      "description": "Знакомство с курсом и Discord",
+      "skills": ["React"],
+      "files": [],
+      "status": "Done",
+      "authors": [
+        {
+          "id": "db0f6335-27b2-4b00-acb1-bb1414fdc13f",
+          "name": "Зар Захаров",
+          "avatar": {
+            "url": "https://lh3.googleusercontent.com/a-/AAuE7mBNFfyQLJtU8jsw9OUdYdImPJF-ZvsR8Tj6BG2kodY=s100"
+          },
+          "email": "severenit@gmail.com"
+        }
+      ],
+      "daysToUnlock": 1,
+      "isFree": false,
+      "lesson": {
+        "path": "./lessons/lesson-07.md"
+      },
+      "homework": [
+        {
+          "id": "homework-07",
+          "title": "Домашняя работа",
+          "path": "./homeworks/homework-07.md",
+          "files": [
+            {
+              "name": "LoginFormLayout.zip",
+              "url": "https://firebasestorage.googleapis.com/v0/b/it-course-84ddd.appspot.com/o/course%2Freact%2F07%2FLoginFormLayout.zip?alt=media&token=8f09fa8c-65ef-4478-9af2-cae72003fb21"
+            }
+          ],
+          "checkType": "link"
+        }
+      ],
+      "source": []
     }
   ],
   "botMessages": [],
