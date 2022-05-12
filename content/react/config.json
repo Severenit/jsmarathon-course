@@ -124,7 +124,7 @@
         {
           "id": "homework-02",
           "title": "Домашняя работа",
-          "path": "./homeworks/homework.md",
+          "path": "./homeworks/homework-02.md",
           "files": [],
           "checkType": "link"
         }
